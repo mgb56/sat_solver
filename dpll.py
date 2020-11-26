@@ -235,9 +235,6 @@ def main():
 
 
 		nvar, clauses = create_clauses(nvar, clauses)
-		print("nvar is", nvar)
-		print("clauses is", clauses)
-		print()
 		dpll(nvar, clauses)
 
 
